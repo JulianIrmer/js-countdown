@@ -1,0 +1,76 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: whitesmoke;
+}
+
+#alert{
+	margin-top: 10%;
+	height: 100px;
+	font-size: 100%;
+	color: darkred;
+	animation-name: alert;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+	
+}
+
+@keyframes alert{
+	0% {font-size: 110%}
+	50% {font-size: 150%}
+	100% {font-size: 110%}
+}
+
+
+
+.clock{
+	height: 100px;
+	width: 100%;
+	font-size: 120%;
+	letter-spacing: 4px;
+}
+
+.input{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.input > input{
+	letter-spacing: 4px;
+	text-align: center;
+	margin: 40px 20px 20px 20px;
+}
+
+.clock{
+	float: left;
+	font-size: 200%;
+	letter-spacing: 10px;
+	font-family: sans-serif;
+	color: black;
+}
+
+.btn{
+	margin: 20px;
+	padding: 10px;
+	border: 0px;
+	width: 100px;
+}
+
+#set:hover{
+	background-color: white;
+}
+
+#start:hover{
+	background-color: darkgreen;
+}
+
+#pause:hover{
+	background-color: lightgoldenrodyellow;
+}
+
+#reset:hover{
+	background-color: darkred;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Countdown</title>
+
+</head>
+<body>
+	<div id="alert"></div>
+	<div class="clock" id="clock">
+	<hour id="hour">00</hour>:<minute id="minute">00</minute>:<second id="second">00</second>
+	</div>
+	
+	<div class="input">
+		<input type="number" placeholder="hours" 		id="hoursInput">
+		<input type="number" placeholder="minutes" 	id="minutesInput">
+		<input type="number" placeholder="seconds" 	id="secondsInput">
+	</div>
+	
+	<input type="button" class="btn" id="start" value="start" onclick="setup(); start()">
+	<input type="button" class="btn" id="pause" value="pause" onclick="pause()" disabled="true">
+	<input type="button" class="btn" id="reset" value="reset" onclick="reset()">
+
+	<script src="main.js"></script>
+</body>
+</html>
